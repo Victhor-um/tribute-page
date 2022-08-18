@@ -45,3 +45,36 @@ ul {
   text-align: left;
   line-height: 1.6;
 }
+@media (max-width: 660px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.1em;
+  }
+  body {
+    max-width: 100%;
+  }
+  #headline {
+    margin: 25px 0;
+  }
+  #img-div {
+    color: rebeccapurple;
+    width: auto;
+    height: 100%;
+  }
+}
+@media (min-width: 2000px) {
+  #img-div {
+    float: left;
+    display: block;
+    margin: 0 50px;
+  }
+  ul {
+    display: inline-block;
+    margin: auto;
+  }
+  body {
+    background-color: aqua;
+  }
+}
